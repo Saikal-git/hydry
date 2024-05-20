@@ -1,0 +1,74 @@
+#home {
+  padding: 30px 0;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+}
+.homeTop {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.text h1 {
+  width: 500px;
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+  line-height: 56.07px;
+}
+.text span {
+  color: #8176af;
+}
+.text p {
+  padding: 45px 0;
+  color: white;
+  width: 500px;
+  font-size: 18px;
+  line-height: 25px;
+}
+.lineBtn {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.lineBtn button {
+  width: 214px;
+  height: 48px;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  font-size: 16px;
+  font-weight: 600;
+}
+.homeBottom {
+  margin: 90px 0;
+  background: radial-gradient(
+    50% 2900.76% at 50% 53.89%,
+    rgba(58, 52, 86, 0.95) 0%,
+    #211e2e 100%
+  );
+  width: 1450px;
+  height: 167px;
+  border-radius: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line1 {
+  margin: 0 70px;
+  height: 110px;
+  border: 1px;
+  border: 1px solid rgba(192, 183, 232, 0.33);
+}
+.infoOne {
+  display: flex;
+  gap: 20px;
+}
+.infoOne-text {
+  color: white;
+}
